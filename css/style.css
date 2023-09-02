@@ -979,6 +979,12 @@ header .form i {
     position: relative;
 }
 
+@media (max-width: 390px) {
+    .subscribe form input[type="email"] {
+        width: 70%;
+    }
+}
+
 .subscribe form i {
     position: absolute;
     top: 50%;
